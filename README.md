@@ -1,24 +1,24 @@
 # 📝 Skill 介绍页文案生成器
 
-> **WorkBuddy Skill** — 为 WorkBuddy Skill 自动生成介绍页文案，按照固定格式输出项目名称、描述、目标、状态和分类
+> **Agent Skill** — 为 Agent Skill 自动生成介绍页文案，按照固定格式输出项目名称、描述、目标、状态和分类
 
 [![Version](https://img.shields.io/github/v/release/hugohung/workbuddy-skill-skill-intro-writer?style=flat-square)](https://github.com/hugohung/workbuddy-skill-skill-intro-writer/releases)
 [![License](https://img.shields.io/github/license/hugohung/workbuddy-skill-skill-intro-writer?style=flat-square)](LICENSE)
-[![WorkBuddy](https://img.shields.io/badge/WorkBuddy-skill-orange.svg?style=flat-square)](https://www.codebuddy.cn)
+[![Agent Skill](https://img.shields.io/badge/Agent-Skill-orange.svg?style=flat-square)](#)
 [![GitHub Stars](https://img.shields.io/github/stars/hugohung/workbuddy-skill-skill-intro-writer?style=flat-square)](https://github.com/hugohung/workbuddy-skill-skill-intro-writer/stargazers)
 
 ---
 
 ## 📋 核心能力
 
-本 Skill 自动为 WorkBuddy Skill 生成标准化的介绍页文案，确保格式统一、内容专业。
+本 Skill 自动为 Agent Skill 生成标准化的介绍页文案，确保格式统一、内容专业。
 
 ### ✨ 功能特性
 
 - ✅ **固定格式输出** — 严格遵循「项目名称/项目描述/目标/状态/项目分类」5个字段规范
 - ✅ **智能内容提取** — 自动识别 Skill 的核心功能、适用场景和价值点
 - ✅ **价值导向输出** — 聚焦 Skill 的提效价值，生成可量化的目标说明
-- ✅ **开箱即用** — 无需额外配置，在 WorkBuddy 对话中直接触发
+- ✅ **开箱即用** — 无需额外配置，在支持 Skill 的 Agent 对话中直接触发
 
 ---
 
@@ -35,7 +35,7 @@
 
 ### 使用示例
 
-在 WorkBuddy 对话中直接说：
+在支持 Skill 的 Agent 对话中直接说：
 
 ```
 帮我给这个 skill 写个介绍页
@@ -129,10 +129,10 @@
 
 ## 📦 安装方式
 
-### 方式一：WorkBuddy 用户
+### 方式一：Agent 用户
 
 1. 下载 [最新 Release zip](https://github.com/hugohung/workbuddy-skill-skill-intro-writer/releases/latest)
-2. 在 WorkBuddy **技能管理** → **上传技能**，选择 zip 文件
+2. 在 Agent 客户端的 **Skill 管理** → **上传技能**，选择 zip 文件
 3. 上传完成后无需额外配置，即可在对话中直接使用
 
 ### 方式二：从源码安装
@@ -141,7 +141,7 @@
 git clone https://github.com/hugohung/workbuddy-skill-skill-intro-writer.git ~/.workbuddy/skills/skill-intro-writer
 ```
 
-重启 WorkBuddy 即可自动识别该技能。
+重启当前 Agent 客户端 即可自动识别该技能。
 
 ---
 
@@ -166,7 +166,7 @@ git clone https://github.com/hugohung/workbuddy-skill-skill-intro-writer.git ~/.
 如果使用过程中遇到问题，可以通过以下方式反馈：
 
 - 提交 [GitHub Issue](https://github.com/hugohung/workbuddy-skill-skill-intro-writer/issues)
-- 在 WorkBuddy 社区寻求帮助
+- 在 对应 Agent 客户端社区寻求帮助
 
 ---
 
@@ -181,13 +181,13 @@ git clone https://github.com/hugohung/workbuddy-skill-skill-intro-writer.git ~/.
 **honghaoxiang**
 
 - GitHub: [@hugohung](https://github.com/hugohung)
-- WorkBuddy: [codebuddy.cn](https://www.codebuddy.cn)
+- 适用环境：支持 Skill 的 Agent 客户端
 
 ---
 
 ## 🙏 致谢
 
-- [WorkBuddy](https://www.codebuddy.cn) — 提供 AI 助手平台
+- 支持 Skill 的 Agent 客户端
 - 所有贡献者和用户的支持
 
 ---

@@ -1,14 +1,14 @@
 ---
 name: jd-skill-intro-writer
-description: 为 WorkBuddy skill 生成介绍页文案，按照「项目名称 / 项目描述 / 目标 / 状态 / 项目分类」五个字段的固定格式输出。当用户要求为新 skill 写介绍、生成 skill 介绍页、输出 skill 文案时触发。
+description: 为 Agent Skill 生成介绍页文案，按照「项目名称 / 项目描述 / 目标 / 状态 / 项目分类」五个字段的固定格式输出。当用户要求为新 skill 写介绍、生成 skill 介绍页、输出 skill 文案时触发。
 agent_created: true
 author: honghaoxiang
-version: "1.0.0"
+version: "1.0.1"
 ---
 
 # Skill 介绍页文案生成器
 
-按照固定格式为 WorkBuddy skill 生成介绍页文案。
+按照固定格式为 Agent Skill 生成介绍页文案。
 
 ## 输出格式
 
